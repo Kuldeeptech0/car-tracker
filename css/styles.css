@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    padding: 1rem 1.5rem;
+}
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+/* Hero Section */
+#home {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    padding: 5rem 0;
+    text-align: center;
+}
+#home .btn {
+    font-size: 1.2rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+#home .btn:hover {
+    background: #ffc107;
+    color: #333;
+    transform: scale(1.1);
+}
+
+/* Features Section */
+#features .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#features .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+#contact {
+    padding: 3rem 0;
+}
+#contact .form-control {
+    border-radius: 0.5rem;
+    border: 1px solid #ddd;
+}
+#contact .btn {
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+    transition: background 0.3s ease;
+}
+#contact .btn:hover {
+    background: #ffc107;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1.5rem 0;
+}
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
